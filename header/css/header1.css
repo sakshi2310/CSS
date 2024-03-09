@@ -1,0 +1,129 @@
+*
+{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+body
+{
+     font-family: Poppins,sans-serif;
+     /* background-color: bisque; */
+     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(../image/bulider4.jpg);
+     /* background-repeat: ; */
+}
+ul{
+     list-style: none;
+}
+a
+{
+     text-decoration: none;
+     display: inline-block;
+}
+.color
+{
+     background-color: #161825;
+     padding: 7px;
+}
+.container
+{
+     padding: 0 35px;
+}
+.top_header
+{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.top_header .call
+{
+     color: white;
+}
+.icon
+{
+     color: white;
+     margin-right: 5px;
+}
+.top_header .mail a
+{
+     color: white;
+}
+.top_header .main_icon
+{
+     display: flex;
+     text-align: center;
+
+}
+.logo_icons  a
+{
+     color: #161825;
+}
+.social_media
+{
+     height: 30px;
+     width: 30px;
+     background-color: white;
+     border-radius: 50%;
+     margin: 3px;
+     padding: 5px;
+}
+.top_header .mail:hover a,
+.top_header .mail:hover i
+{
+     color: #FE9901;
+}
+.top_header .logo_icons .social_media:hover i
+{
+     color: #FE9901;
+}
+.header
+{
+     background-color: white;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.main_menu ul
+{
+     display: flex;
+}
+.main_menu li
+{
+     margin: 10px;
+}
+.logo a
+{
+     font-size: 30px;
+     color: #161825;
+     font-weight: 700;
+     text-transform: uppercase;
+     margin-left: 20px;
+}
+.main_menu li a
+{
+     color: black;
+     font-weight: bold;
+     padding: 15px;
+     border-radius: 10px;
+}
+.main_menu li:hover a
+{
+     background-color: #FE9901;
+}
+.navbar 
+{
+     display: flex;
+     align-items: center;
+     margin-right: 20px;
+}
+.search a
+{
+     color: #161825;
+}
+.active
+{
+     background-color: #FE9901;
+     border-radius: 10px;
+     
+}
+
+

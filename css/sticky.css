@@ -1,0 +1,31 @@
+body
+{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.section
+{
+     height: 100vh;
+}
+
+
+.div1
+{
+     height: 50px;
+     background-color: black;
+     color: white;
+     text-align: center;
+     padding-top:10px;
+     /* box-sizing: border-box; */
+     font-size: 26px;
+     position: sticky;
+     left: 0;
+     top: 0;
+}
+img
+{
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+}

@@ -1,0 +1,82 @@
+/* .list li:first-child
+{
+     background-color: aqua;
+} */
+/* .list li:last-child
+{
+     background-color: blue;
+} */
+/* .list li:nth-child(5)
+{
+     background-color: burlywood;
+} */
+/* .list li:nth-child(even)
+{
+     background-color: burlywood;
+} */
+/* .list li:nth-child(odd)
+{
+     background-color: burlywood;
+} */
+/* .list li:nth-last-child(3)
+{
+     background-color: burlywood;
+} */
+/* .main h1:only-of-type
+{
+     background-color: burlywood;
+} */
+/* .main h1:only-child
+{
+     background-color: burlywood;
+} */
+/* .main :not(p)
+{
+     background-color: burlywood;
+} */
+/* .main :is(p)
+{
+     background-color: burlywood;
+} */
+/* div::first-letter
+{
+     font-size: 30px;
+} */
+/* div::first-line
+{
+     background-color: beige;
+} */
+/* ::selection
+{
+     background-color: blueviolet;
+} */
+/* ::placeholder
+{
+     color: aquamarine;
+} */
+
+.btn
+{
+     padding: 20px;
+     margin: 50px;
+     border: none;
+     position: relative;
+
+}
+.btn::before
+{
+     content: '';
+     height: 4px;
+     width: 100%;
+     background-color: blueviolet;
+     position: absolute;
+     bottom: 0;
+     transform: scaleX(0);
+     left: 0;
+     transition: .3s;
+}
+.btn:hover::before
+{
+     /* width: 100%; */
+     transform: scaleX(1);
+}

@@ -1,0 +1,91 @@
+*
+{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+.main
+{
+     height: 600px;
+     width: 600px;
+     background-color: rgb(201, 156, 223);
+     margin: 50px   auto;
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     /* grid-template-rows: 200px 200px 200px; */
+     grid-template-rows: repeat(3,1fr);
+     gap: 5px;
+
+     /* grid-auto-flow: column; */
+     /* grid-auto-flow: row; */
+     /* grid-auto-flow: dense; */
+
+     /* justify-content:start; */
+     /* justify-content: end; */
+     /* justify-content: center; */
+     /* justify-content: stretch; */
+     /* justify-content: space-around; */
+     /* justify-content: space-evenly; */
+     /* justify-content: space-between; */
+
+     /* align-content: start; */
+     /* align-content: end; */
+     /* align-content: center; */
+     /* align-content: space-around; */
+     /* align-content: space-between;  */
+     /* align-content: space-evenly; */
+}
+.child
+{
+     /* height: 100px; */
+     /* width: 100px; */
+     background-color: blueviolet;
+     /* border: solid 2px palevioletred; */
+}
+.child1
+{
+     grid-column-start: 1;
+     grid-column-end: 3;
+
+     
+}
+.main1
+{
+     display: grid;
+     grid-template-areas: 
+          'header nav nav'
+          'section section aside'
+          'footer footer footer'
+      ;
+}
+
+header{
+     background-color: aqua;
+     height: 100px;
+     grid-area: header;
+}
+nav
+{
+     background-color: bisque;
+     height: 100px;
+     grid-area: nav;
+}
+section
+{
+     background-color: aquamarine;
+     height: 300px;
+     grid-area: section;
+
+}
+aside
+{
+     background-color: blueviolet;
+     height: 300px;
+     grid-area: aside;
+}
+footer
+{
+     background-color: brown;
+     height: 100px;
+     grid-area: footer;
+}

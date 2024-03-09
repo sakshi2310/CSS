@@ -1,0 +1,213 @@
+.btn
+{
+	font-family: Adobe Gothic Std;
+	padding: 10px 45px;
+	float: left;
+	font-size: 15px;
+	margin: 25px 80px;
+	border-width: 0px;
+	box-sizing: border-box;
+	width : calc(100%/4 - 160px);
+
+	
+}
+.btn:hover
+{
+	cursor: pointer;
+	box-shadow: 0px 0px 3px #000;
+
+}
+.btn1
+{
+	border-radius: 10px ;
+	/*border: none;*/
+	background-image: linear-gradient(to right,#99FBCA,#6dd5ed);
+	
+	
+}
+.btn2
+{
+	background-image: linear-gradient(to left ,#5DEEF3,#1F68F1);
+	border-radius: 10px;
+}
+.btn3
+{
+	background-image: linear-gradient(to left,#FEE4CA,#FCBBA4);
+	border-radius: 10px;
+}
+.btn4
+{
+	background-image: linear-gradient( to right,#ee9ca7,#ffdde1);
+	border-radius: 10px;
+}
+
+.btn5
+{
+	background-color: transparent;
+	border: solid 5px;
+
+	border-image-source: linear-gradient(to left,#F3C2EB,#ABC1ED);
+	border-image-slice: 1;
+	border-radius: 5px;
+}
+.btn5:hover
+{
+	background-image: linear-gradient(to left,#F3C2EB,#ABC1ED);
+
+}
+.btn6
+{
+	background-color: transparent;
+	border: solid 5px;
+	border-image-source: linear-gradient(to left ,#C6FFDD,#FBD786,#f7797d);
+	border-image-slice: 1;
+
+}
+.btn6:hover
+{
+	background-image: linear-gradient(to left ,#C6FFDD,#FBD786,#f7797d);
+	
+}
+.btn7
+{
+	background-color: transparent;
+	border: solid 5px;
+	border-image-source: linear-gradient(to left ,#c2e59c,#64b3f4);
+	border-image-slice: 1;
+
+}
+.btn7:hover
+{
+	background-image: linear-gradient(to left ,#c2e59c,#64b3f4);
+	
+}
+.btn8
+{
+	background-color: transparent;
+	border: solid 5px;
+	border-image-source: linear-gradient(to left,#FEAC5E,#C779D0,#4BC0C8);
+	border-image-slice: 1; 
+
+}
+.btn8:hover
+{
+	background-image: linear-gradient(to left ,#FEAC5E,#C779D0,#4BC0C8);
+	
+}
+.btn9
+{
+	background-image: linear-gradient( to right, #FEAC5E,	#C779D0,#4BC0C8);
+	border-radius: 25px;
+	color: white;
+}
+.btn10
+{
+	background-image: linear-gradient( to right,#7F7FD5,#86A8E7,#91EAE4);
+	border-radius: 25px;
+	color: white;
+
+}
+.btn11
+{
+	background-image: linear-gradient( to right,#E55D87,#5FC3E4);
+	border-radius: 25px;
+	color: white;
+
+}
+
+.btn12
+{
+	background-image: linear-gradient( to right,#3D7EAA,#43cea2);
+	border-radius: 25px;
+	color: white;
+
+}
+.btn13
+{
+	background-color: transparent;
+	border: solid 5px;
+	border-image-source: linear-gradient(to left ,#e96443,#904e95);
+	border-image-slice: 1;
+
+}
+.btn13:hover
+{
+	background-image: linear-gradient(to left,#e96443 ,#904e95);
+	color: white;
+	
+}
+.btn14
+{
+	background-color: transparent;
+	border: solid 5px;
+	border-image-source: linear-gradient(to left ,#5C258D,#4389A2);
+	border-image-slice: 1;
+	
+
+}
+.btn14:hover
+{
+	background-image: linear-gradient(to left ,#5C258D,#4389A2);
+	color: white;
+	
+}
+.btn15
+{
+	background-color: transparent;
+	border: solid 5px;
+	border-image-source: linear-gradient(to left ,#0099F7,#F11712);
+	border-image-slice: 1;
+
+}
+.btn15:hover
+{
+	background-image: linear-gradient(to left ,#0099F7,#F11712);
+	color: white;
+	
+}
+.btn16
+{
+	background-color: transparent;
+	border: solid 5px;
+	border-image-source: linear-gradient(to left ,#40E0D0,#FF8C00,#FF0080);
+	border-image-slice: 1;
+
+}
+.btn16:hover
+{
+	background-image: linear-gradient(to left ,#40E0D0,#FF8C00,#FF0080);
+	color: white;
+	
+}
+.btn17	
+{
+	background-image: linear-gradient( to right, #AAFFA9,	#11FFBD);
+	border-radius: 25px;
+	color: black;
+}
+.btn18
+{
+	background-image: radial-gradient(#91EAE4,#86A8E7,#7F7FD5);
+	border-radius: 25px;
+	color: black;
+
+}
+.btn19
+{
+	background-image: linear-gradient( to right,#9796f0,#fbc7d4);
+	border-radius: 25px;
+	color: black;
+
+}
+
+.btn20
+{
+	background-image: linear-gradient( to right,#800080	,#ffc0cb);
+	border-radius: 25px;
+	color: white;
+
+}
+.btn17:hover, .btn18:hover,.btn19:hover,.btn20:hover
+{
+	box-shadow: 1px 1px 3px #000;
+}

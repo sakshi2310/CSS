@@ -1,0 +1,610 @@
+body
+{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+h1
+{
+     text-align: center;
+}
+.btn
+{
+     padding: 20px;
+     margin: 50px;
+     border: none;
+     position: relative;
+     cursor: pointer;
+     background-color: #E1E1E1;
+}
+
+/* effect 1 */
+.btn1::before
+{
+     content: '';
+     border: 3px solid transparent;
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     transition: .3s;
+
+}
+.btn1:hover::before
+{
+     border-color: #46AAD9;
+}
+
+/* effect 2 */
+
+.btn2::before
+{
+     content: '';
+     border: 5px solid transparent;
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     transition: .3s;
+}
+.btn2:hover::before
+{
+     border-color: #E1E1E1;
+     background-color: white;
+     color: black;
+}
+.btn2:hover  span
+{
+     position: relative;
+     z-index: 1;
+     top: 0;
+     left: 0;
+     color: black;
+}
+ 
+/* effect 3 */
+.btn3 
+{
+     padding: 15px;
+}
+.btn3::before
+{
+     content: '';
+     border: 5px solid #E1E1E1;
+     outline: 5px solid #E1E1E1 ;
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     transition: .3s;
+}
+.btn3:hover::before
+{
+     border-color: white;
+     color: black;
+}
+.btn3:hover  span
+{
+     position: relative;
+     z-index: 2;
+     top: 0;
+     left: 0;
+     color: black;
+}
+
+/* effect 4 */
+
+.btn4::before
+{
+     content: '';
+     border: 5px solid #E1E1E1;
+    
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     transition: .3s;
+}
+.btn4:hover::before
+{
+     border-color: white;
+     outline: 5px solid #E1E1E1 ;
+     color: black;
+}
+.btn4:hover  span
+{
+     position: relative;
+     z-index: 2;
+     top: 0;
+     left: 0;
+     color: black;
+}
+ 
+/* EFFECT 5 */
+
+.btn5::before
+{
+     content: '';
+     border: 5px solid #E1E1E1;
+     /* outline: 5px solid white; */
+     outline-offset: 13px;
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     transition:.5s;
+
+}
+.btn5:hover::before
+{
+     border-color: white;
+     outline: 5px solid #E1E1E1 ;
+     outline-offset: 0;
+     color: black;
+}
+.btn5:hover  span
+{
+     position: relative;
+     z-index: 2;
+     top: 0;
+     left: 0;
+     color: black;
+}
+/* effect 6 */
+
+.btn6:hover{
+     transition: .3s;
+}
+.btn6:hover
+{
+     border-radius: 20px;
+}
+ /* effect 7 */
+
+.btn7::before
+{
+     content: '';
+     height: 4px;
+     width: 0px;
+     background-color: #46AAD9;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     transition: .3s;
+}
+.btn7:hover::before
+{
+     width: 100%;
+}
+
+/* effect 8 */
+
+.btn8::before
+{
+     content: '';
+     height: 4px;
+     width: 100%;
+     transform: scalex(0);
+     background-color: #46AAD9;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     transition: .3s;
+}
+.btn8:hover::before
+{
+     transform: scaleX(1);
+}
+/* effect 9 */
+
+.btn9::before
+{
+     content: '';
+     height: 4px;
+     width: 0px;
+     background-color: #46AAD9;
+     position: absolute;
+     bottom: 0;
+     right: 0;
+     transition: .3s;
+}
+.btn9:hover::before
+{
+     width: 100%;
+}
+
+/* effect 13 */
+.btn13::before
+{
+     content: '';
+     height: 4px;
+     width: 0px;
+     background-color: #46AAD9;
+     position: absolute;
+     top: 0;
+     left: 0;
+     transition: .3s;
+}
+.btn13:hover::before
+{
+     width: 100%;
+}
+
+/* effect 14 */
+
+.btn14::before
+{
+     content: '';
+     height: 4px;
+     width: 100%;
+     transform: scalex(0);
+     background-color: #46AAD9;
+     position: absolute;
+     top: 0;
+     left: 0;
+     transition: .3s;
+}
+.btn14:hover::before
+{
+     transform: scaleX(1);
+
+}
+
+/* effect 15 */
+
+.btn15::before
+{
+     content: '';
+     height: 4px;
+     width: 0px;
+     background-color: #46AAD9;
+     position: absolute;
+     top: 0;
+     right: 0;
+     transition: .3s;
+}
+.btn15:hover::before
+{
+     width: 100%;
+}
+
+/* effct 16 */
+
+.btn16::before
+{
+     content: '';
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     top: 0;
+     right: 0;
+     transition: .3s;
+}
+.btn16:hover::before
+{
+     background-color: #46AAD9;
+}
+.btn16:hover span
+{
+     z-index: 1;
+     position: relative;
+     color: white;
+}
+
+/* effect 18 */
+
+
+.btn18::before
+{
+     content: '';
+     height: 100%;
+     width: 0;
+     position: absolute;
+     top: 0;
+     left: 0;
+     transition: .5s;
+}
+.btn18:hover::before
+{
+     background-color: #46AAD9;
+     width: 100%;
+}
+.btn18:hover span
+{
+     z-index: 1;
+     position: relative;
+     color: white;
+}
+
+/* effect 19 */
+
+.btn19::before
+{
+     content: '';
+     height: 100%;
+     width: 0;
+     position: absolute;
+     top: 0;
+     right: 0;
+     transition: .5s;
+}
+.btn19:hover::before
+{
+     background-color: #46AAD9;
+     width: 100%;
+}
+.btn19:hover span
+{
+     z-index: 1;
+     position: relative;
+     color: white;
+}
+
+/* EFFECT 20 */
+.btn20::before
+{
+     content: '';
+     height: 0%;
+     width: 100%;
+     position: absolute;
+     top: 0;
+     right: 0;
+     /* bottom: 0; */
+     transition: .5s;
+}
+.btn20:hover::before
+{
+     background-color: #46AAD9;
+     height: 100%;
+}
+.btn20:hover span
+{
+     z-index: 1;
+     position: relative;
+     color: white;
+}
+
+/* effect 21 */
+.btn21::before
+{
+     content: '';
+     height: 0%;
+     width: 100%;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     /* bottom: 0; */
+     transition: .5s;
+}
+.btn21:hover::before
+{
+     background-color: #46AAD9;
+     height: 100%;
+}
+.btn21:hover span
+{
+     z-index: 1;
+     position: relative;
+     color: white;
+}
+
+/* effect 22 */
+
+.btn22::before
+{
+     content: '';
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     transform: scaleX(0);
+     transition: .5s;
+}
+.btn22:hover::before
+{
+     background-color:#46AAD9;
+     transform: scalex(1);
+}
+.btn22:hover span
+{
+     z-index: 1;
+     position: relative;
+     color: white;
+}
+
+/* effect 23 */
+ .btn23::before
+{
+     content: '';
+     height: 100%;
+     width: 0%;
+     position: absolute;
+     top: 0;
+     left: 0px;
+     transition: .5s;
+}
+.btn23:hover::before
+{
+     background-color:#46AAD9;
+     width: 50%;
+}
+.btn23::after
+{
+     content: '';
+     height: 100%;
+     width: 0%;
+     position: absolute;
+     top: 0;
+     right:0;
+     transition: .5s;
+}
+.btn23:hover::after{
+     background-color: #46AAD9;
+     width: 50%;
+}
+.btn23:hover span
+{
+     z-index: 1;
+     position: relative;
+     color: white;
+}
+
+/* effect 24 */
+
+.btn24::before
+{
+     content: '';
+     height: 00%;
+     width: 100%;
+     position: absolute;
+     top: 0;
+     left: 0px;
+     transition: .5s;
+}
+.btn24:hover::before
+{
+     background-color:#46AAD9;
+     height: 50%;
+}
+.btn24::after
+{
+     content: '';
+     height: 0%;
+     width: 100%;
+     position: absolute;
+     bottom: 0;
+     left:0;
+     transition: .5s;
+}
+.btn24:hover::after{
+     background-color: #46AAD9;
+     height: 50%;
+}
+.btn24:hover span
+{
+     z-index: 1;
+     position: relative;
+     color: white;
+}
+
+/* effect 25 */
+.btn25::before
+{
+     content: '';
+     height: 100%;
+     width: 100%;
+     transform: scaley(0);
+     position: absolute;
+     top: 0;
+     left: 0px;
+     transition: .5s;
+}
+.btn25:hover::before
+{
+     background-color:#46AAD9;
+     transform: scaley(1);
+}
+.btn25:hover span
+{
+     z-index: 1;
+     position: relative;
+     color: white;
+}
+
+/* effect 26 */
+
+.btn26::before
+{
+     content: '';
+     height: 100%;
+     width: 100%;
+     transform: scale(0);
+     position: absolute;
+     top: 0;
+     left: 0px;
+     transition: .5s;
+}
+.btn26:hover::before
+{
+     background-color:#46AAD9;
+     transform: scale(1);
+}
+.btn26:hover span
+{
+     z-index: 1;
+     position: relative;
+     color: white;
+}
+
+/* effect 27 */
+.btn27
+{
+     background-color:#46AAD9;
+     color: black;
+}
+.btn27::before
+{
+     content: '';
+     height: 100%;
+     width:  100%;
+     transform: scale(1);
+     background-color: #E1E1E1;
+     position: absolute;
+     top: 0;
+     left: 0px;
+     transition: .5s;
+}
+.btn27:hover::before
+{
+     transform: scale(0);
+}
+.bt27:hover span
+{
+     color: white;
+     z-index: 3;
+     position: relative;
+}
+.btn27 span
+{
+     z-index: 2;
+     position: relative;
+     color: black;
+}
+ 
+/* effect 28 */
+
+.btn28
+{
+     overflow: hidden;
+}
+.btn28::before
+{
+     content: '';
+     height: 100%;
+     width: 100%;
+     transform: scale(0);
+     position: absolute;
+     border-radius: 50%;
+     top: 0;
+     left: 0px;
+     transition: .5s;
+    
+}
+.btn28:hover::before
+{
+     background-color:#46AAD9;
+     
+     transform: scale(1.7);
+}
+.btn28:hover span
+{
+     z-index: 1;
+     position: relative;
+     color: white;
+}

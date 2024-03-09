@@ -1,0 +1,27 @@
+body
+{
+     padding: 0;
+     margin: 0;
+}
+div
+{
+     height: 100vh;
+     /* width: 100%; */
+     /* object-fit: cover; */
+     margin: 200px;
+
+     background-color: aquamarine;
+     background-image: url(../image/3.jpg);
+     /* background-repeat: no-repeat; */
+     /* background-size: cover; */
+     /* background-position: right; */
+     /* border: dashed magenta 5px; */
+     /* padding: 50px; */
+     /* background-origin: content-box; */
+     /* background-clip: content-box; */
+     
+     /* background-blend-mode: multiply; */
+     /* background-attachment: fixed; */
+
+
+}

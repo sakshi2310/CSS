@@ -1,0 +1,33 @@
+.main
+{
+     height: 300px;
+     width: 300px;
+     background-color: brown;
+     margin: 100px auto;
+}
+.inner
+{
+     height: 100px;
+     width: 100px;
+     background-color: blanchedalmond;
+    /* display: none; */
+    opacity: 1;
+    /* visibility: hidden; */
+    /* transition-property: width; */
+    transition-duration: 1s;
+    /* transition-delay: 2s; */
+    /* transition-timing-function:steps(10); */
+}
+.main:hover .inner
+{
+     /* display: block; */
+     opacity:1;
+    transform: skew(10deg);
+
+     /* visibility:  visible; */
+     /* height: 200px; */
+     /* width: 200px; */
+     /* transform: rotate(20deg); */
+     /* transform: scale(1.9); */
+   
+}

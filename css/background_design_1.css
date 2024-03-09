@@ -1,0 +1,176 @@
+body
+{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Adobe Gothic Std;
+}
+.img-1
+{
+     height: 100vh;
+     width: 100%;
+     background-repeat: no-repeat;
+     background-image: url(../image/bak-1.jpg);
+     background-size: cover;
+     background-attachment: fixed;
+     padding-top:60px;
+     text-align: center;
+}
+.p-1
+{
+     text-align: center;
+}
+.p-1 p
+{
+     width: 220px;
+     padding: 10px 20px;
+     margin: auto;
+     box-shadow: 0 0 5px #000;
+     background-color: rgba(200,200,200,.4);
+     font-size: 40px;
+     text-transform: capitalize;
+     
+}
+.img-2
+{
+     height: 100vh;
+     background-repeat: no-repeat;
+     background-image: url(../image/bak-2.avif);
+     background-size: cover;  
+     background-attachment: fixed;
+     padding: 50px;
+}
+.text1 h2
+{
+     text-align: center;
+     text-transform: capitalize;
+     text-decoration: underline;
+     text-underline-offset: 3px;
+}
+.text1
+{
+     padding: 10px 50px;
+     text-align: justify;
+     font-weight: 200;
+     font-family: Bahnschrift;
+     line-height: 25px;
+}
+
+.p-2 p
+{
+     width: 500px;
+     padding: 10px 20px;
+     margin-left: auto;
+     box-shadow: 0 0 5px #000;
+     background-color: rgba(200,200,200,.4);
+     background-attachment: fixed;
+     background-position: 0% 0%; 
+     text-transform: capitalize;
+     font-family: Bahnschrift;
+}
+.text2 h2
+{
+     text-align: center;
+     text-transform: capitalize;
+     text-decoration: underline;
+     text-underline-offset: 3px;
+}
+.text2
+{
+     padding: 10px 50px;
+     text-align: justify;
+     font-weight: 200;
+     font-family: Bahnschrift;
+     line-height: 25px;
+}
+.img-3
+{
+     height: 100vh;
+     
+     background-repeat: no-repeat;
+     background-image: url(../image/bak-3.jpg);
+     background-size: cover;  
+     background-attachment: fixed;
+     padding: 50px;
+}
+.p-3 p
+{
+     width: 500px;
+     padding: 10px 20px;
+     margin-right: auto;
+     box-shadow: 0 0 5px #000;
+     background-color: rgba(200,200,200,.4);
+     
+     text-transform: capitalize;
+     font-family: Bahnschrift;
+}
+.text3 h2
+{
+     text-align: center;
+     text-transform: capitalize;
+     text-decoration: underline;
+     text-underline-offset: 3px;
+}
+.text3
+{
+     padding: 10px 50px;
+     text-align: justify;
+     font-weight: 200;
+     font-family: Bahnschrift;
+     line-height: 25px;
+}
+.text4 h2
+{
+     text-align: center;
+     text-transform: capitalize;
+     text-decoration: underline;
+     text-underline-offset: 3px;
+}.text4
+{
+     padding: 10px 50px;
+     text-align: justify;
+     font-weight: 200;
+     font-family: Bahnschrift;
+     line-height: 25px;
+}
+.img-4
+{
+     height: 100vh;
+     
+     background-repeat: no-repeat;
+     background-image: url(../image/bak-4.jpg);
+     background-size: cover;  
+     background-attachment: fixed;
+     padding: 50px;
+}
+.p-4 p
+{
+     width: 400px;
+     padding: 10px 20px;
+     margin-left: auto;
+     box-shadow: 0 0 5px #000;
+     background-color: rgba(200,200,200,.4);
+     
+     text-transform: capitalize;
+     font-family: Bahnschrift;
+}
+.img-5
+{
+     height: 100vh;
+     
+     background-repeat: no-repeat;
+     background-image: url(../image/bak-5.jpg);
+     background-size: cover;  
+     background-attachment: fixed;
+     padding: 40px;
+}
+.p-5 p
+{
+     width: 200px;
+     padding: 5px 5px;
+     margin: auto;
+     box-shadow: 0 0 5px #000;
+     background-color: rgba(200,200,200,.4);
+     font-size: 40px;
+     text-transform: capitalize;
+}

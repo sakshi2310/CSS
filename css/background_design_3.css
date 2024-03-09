@@ -1,0 +1,145 @@
+*
+{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.image-1
+{
+     height: 100vh;
+     width: 100%;
+     background-image: url(../image/bg-1.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+
+}
+.p
+{
+     margin-left: 870px;
+     padding-top: 220px;
+     color: white;
+     padding-left: 40px;
+     font-size: 18px;
+}
+
+h1
+{
+     color: white;
+     font-size: 100px;
+     padding-bottom: 10px;
+}
+.main
+{
+     height: 100vh;
+     width: 100%;
+     background-color: white;
+}
+.p1 p
+{
+     text-align: center;
+     margin-top: 100px;
+     font-size: 40px;
+     color:black;
+     font-weight: bold;
+}
+
+.img-2
+{
+     margin: auto;
+     padding-left: 100px;
+     display: flex;
+     justify-content: space-evenly;
+}
+.child1
+{
+     height: 300px;
+     width: 300px;
+     margin-top: 70px;
+}
+.cap
+{
+     text-align: center;
+     font-size: 20px;
+     font-weight: bold;
+     margin-top: 15px;
+}
+.btn
+{
+     padding: 15px 40px;
+     background-color: black;
+     color: white;
+     margin-top: 70px;
+     margin-left: 560px;
+     font-size: 20px;     
+}
+.image-2
+{
+     height: 100vh;
+     width: 100%;
+     background-image: url(../image/b-7.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+
+}
+.main2
+{
+     height: 100vh;
+     width: 100%;
+     background-color: white;
+}
+
+.txt1 h2
+{
+     font-size: 35px;
+     font-weight: bold;
+     padding-bottom: 100px;
+}
+.div1 .txt1
+{
+     height: 300px;
+     width: 300px;
+     margin-top: 200px;
+     margin-left: 200px;
+     float: left;
+
+}
+.div2
+{
+   padding-left: 650px;
+   padding-top: 50px;
+ 
+}
+
+.main3
+{
+     height: 100vh;
+     width: 100%;
+     background-color: white;
+}
+
+img{
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+}
+.div4
+{
+   
+     
+     
+   padding-left: 100px;
+   padding-top: 200px;
+     float: left;
+}
+.main3 .txt2
+{
+     
+     width: 900px;
+     padding-left: 600px;
+     margin-left: 100px;
+     padding-top: 400px;
+}
+
+

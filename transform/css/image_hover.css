@@ -1,0 +1,150 @@
+*
+{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+img{
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+}
+body
+{
+     font-family: poppiens sans-serif;
+     background-color:#D5DBDB;
+}
+section
+{
+     padding: 20px 50px;
+     gap: 50pxa;
+}
+.row
+{
+     display: flex;
+     gap: 15px;
+     /* justify-content: center; */
+}
+.img_item
+{
+     height:300px;
+     width:300px;
+     flex-grow: 1;
+     overflow: hidden;
+}
+.title
+{
+     display: flex;
+     justify-content: center;
+}
+.sec_title
+{
+   text-align: center;  
+   font-size: 40px;
+   border: 3px solid  black;
+   display: inline;
+   padding: 10px;
+   letter-spacing: 10px;
+   margin: 20px;  
+}
+
+/* effect 1 */
+.effect_1 .img_item
+{
+     overflow: hidden;
+     transition: .3s;
+}
+.effect_1 .img_item:hover img
+{
+     transform: scale(1.2);
+     cursor: pointer;
+}
+
+/* effect 2 */
+.effect_2 .img_item
+{
+     overflow: hidden;
+     transition: .4s;
+}
+
+.effect_2 .img_item:hover img
+{
+     transform-origin: left top;
+     transform: scale(1.2);
+     cursor: pointer;
+}
+
+/* EFFECT 3 */
+
+.effect_3 .img_item img
+{
+     overflow: hidden;
+     transform: scale(1.5);
+     transition: .4s;
+}
+.effect_3 .img_item:hover img
+{
+     /* transform-origin: left top; */
+     cursor: pointer;
+     transform: scale(1);
+}
+
+/* effect 4 */
+
+
+.effect_4 .img_item img
+{
+     overflow: hidden;
+     transform: scale(1.7);
+     margin-left: 100px;
+     transition: .5s;
+}
+.effect_4 .img_item:hover img
+{
+     cursor: pointer;
+     margin: 0;
+}
+
+/* effect 5 */
+
+.effect_5 .img_item img
+{
+     transform: 0.5;
+}
+.effect_5 .img_item:hover img
+{
+     cursor: pointer;
+     transform: rotatey(180deg);
+     
+}
+
+/* effect 6 */
+
+.effect_6 .img_item img
+{
+     transform: 0.5;
+     transform: rotate(25deg) scale(1.5);
+     
+}
+.effect_6 .img_item:hover img
+{
+     cursor: pointer;
+     transform: rotate(0deg) scale(1);
+     
+}
+ /* effect 7 */
+
+.effect_7 .img_item 
+{
+     position: relative;
+}
+ .effect_7 .layer
+ {
+     background-color: rgba(3,3,3, .5);
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 100%;
+     width: 50%;
+
+ }
